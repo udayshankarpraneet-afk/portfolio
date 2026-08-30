@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uday Shankar Praneet | AI/ML Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Uday Shankar Praneet - Computer Science & Engineering (AI & ML) student at Lovely Professional University. Specializing in AI/ML pipelines, scalable full-stack web systems, and algorithmic problem solving.">
+  <meta name="author" content="Uday Shankar Praneet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/print.css">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Elements -->
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">USP</span>
+        <span>Uday Shankar<span class="text-cyan">.P</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#ml-showcase" class="nav-link">AI/ML Demo</a></li>
+          <li><a href="#experience" class="nav-link">Training</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          ☀️
+        </button>
+        <button onclick="window.print()" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;" title="Print or Save CV as PDF">
+          🖨️ PDF CV
+        </button>
+        <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
+          Hire Me
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-toggle-btn" aria-label="Open Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <canvas id="neural-canvas"></canvas>
+
+    <div class="container hero-content">
+      <div class="hero-text-block">
+        <div class="hero-status-tag">
+          <span class="status-dot"></span>
+          <span>Available for AI/ML & Engineering Roles</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <br>
+          <span class="text-gradient">Uday Shankar Praneet</span>
+        </h1>
+
+        <div class="hero-typewriter-container">
+          <span class="typewriter-prefix">I am a </span>
+          <span id="typewriter-text" class="typewriter-text"></span>
+          <span class="typewriter-cursor"></span>
+        </div>
+
+        <p class="hero-description">
+          Computer Science & Engineering (AI & ML) scholar at <strong>Lovely Professional University (CGPA: 8.89)</strong>. 
+          Bridging the gap between intelligent machine learning pipelines and scalable.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <span>⚡</span>
+          </a>
+          <a href="#ml-showcase" class="btn btn-outline">
+            <span>Live ML Playground</span>
+            <span>🤖</span>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <span>Get in Touch →</span>
+          </a>
+        </div>
+
+        <div class="hero-social-links">
+          <a href="https://github.com/udayshankarpraneet-afk" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/uday-shankar-praneet" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="mailto:udayshankarpraneet@gmail.com" class="social-icon-btn" title="Email Uday">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l9.214 7.468c.226.183.504.275.786.275s.56-.092.786-.275l9.214-7.468v11.817h-20z"/></svg>
+          </a>
+          <a href="tel:+917384825279" class="social-icon-btn" title="Call Uday">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.446-.86-.145-1.923.693-2.427l1.796-1.077c-.89-2.721-3.056-4.887-5.777-5.777l-1.077 1.796c-.504.838-1.567 1.139-2.427.693l-6.795-3.521c-.864-.448-1.218-1.516-.79-2.408l1.754-3.655c.421-.876 1.439-1.341 2.378-1.09 10.638 2.846 19.123 11.331 21.969 21.969.251.939-.214 1.957-1.09 2.378l-3.655 1.754c-.892.428-1.96.074-2.408-.79z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Profile Visual & Quick Highlights -->
+      <div class="hero-visual">
+        <div class="floating-chip floating-chip-1">
+          <span class="chip-icon">🤖</span>
+          <span>C, C++ & Python</span>
+        </div>
+        <div class="floating-chip floating-chip-2">
+          <span class="chip-icon">🛡️</span>
+          <span>PostgreSQL</span>
+        </div>
+
+        <div class="profile-card-container shimmer-effect">
+          <div class="profile-avatar-wrapper">
+            <div class="avatar-circle">UP</div>
+            <div class="avatar-badge-icon">⚡</div>
+          </div>
+
+          <div class="profile-header-info">
+            <h2 class="profile-name">Uday Shankar Praneet</h2>
+            <p class="profile-role">B.Tech CSE (AI & ML) @ LPU</p>
+          </div>
+
+          <div class="profile-quick-stats">
+            <div class="quick-stat-item">
+              <span class="stat-number">8.89</span>
+              <span class="stat-label">CGPA @ LPU</span>
+            </div>
+            <div class="quick-stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Concurrent Users</span>
+            </div>
+            <div class="quick-stat-item">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Problems Solved</span>
+            </div>
+            <div class="quick-stat-item">
+              <span class="stat-number">100 Days</span>
+              <span class="stat-label">LeetCode Badge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Terminal Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Engineering Foundation</span>
+        <h2 class="section-title">About <span class="text-gradient">My Journey</span></h2>
+        <p class="section-subtitle">
+          Combining analytical data science with high-throughput systems engineering to build resilient digital products.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-content reveal-on-scroll">
+          <p class="about-paragraph">
+            I am a passionate Computer Science student specializing in <strong>Artificial Intelligence & Machine Learning</strong> at Lovely Professional University. My work focuses on building robust full-stack applications and creating end-to-end machine learning pipelines.
+          </p>
+          <p class="about-paragraph">
+            From engineering production-ready classroom management systems adhering to <strong>IEEE 830-1998 standards</strong> for 500+ concurrent users, to training predictive machine learning models using Scikit-learn, I thrive on writing clean, optimized, and impactful code.
+          </p>
+
+          <div class="about-pillars-grid">
+            <div class="pillar-card">
+              <span class="pillar-icon">🧠</span>
+              <h3 class="pillar-title">AI & Data Science</h3>
+              <p class="pillar-desc">Exploratory data analysis, supervised/unsupervised models, and Scikit-learn pipelines.</p>
+            </div>
+            <div class="pillar-card">
+              <span class="pillar-icon">⚡</span>
+              <h3 class="pillar-title">Scalable Systems</h3>
+              <p class="pillar-desc">Engineered for 500 concurrent users, sub-3s response times, and 99% uptime.</p>
+            </div>
+            <div class="pillar-card">
+              <span class="pillar-icon">🔒</span>
+              <h3 class="pillar-title">Security & RBAC</h3>
+              <p class="pillar-desc">Multi-role authentication, password hashing, session timeouts, and audit trails.</p>
+            </div>
+            <div class="pillar-card">
+              <span class="pillar-icon">🎯</span>
+              <h3 class="pillar-title">Problem Solving</h3>
+              <p class="pillar-desc">LeetCode 100 Days Badge recipient with 100+ algorithmic problems solved.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Developer Terminal -->
+        <div class="terminal-window reveal-on-scroll">
+          <div class="terminal-header">
+            <div class="terminal-controls">
+              <span class="ctrl-btn ctrl-close"></span>
+              <span class="ctrl-btn ctrl-min"></span>
+              <span class="ctrl-btn ctrl-max"></span>
+            </div>
+            <span class="terminal-title">uday-shankar-praneet — bash — 80x24</span>
+            <span>⚡</span>
+          </div>
+
+          <div id="term-body" class="terminal-body">
+            <div id="term-output" class="terminal-output">
+              <div class="terminal-line term-cyan">
+                Welcome to Uday's Interactive Terminal v2.5.0!
+              </div>
+              <div class="terminal-line term-gray">
+                Type <span class="term-green">'help'</span> to see all available commands or explore: <span class="term-purple">'skills'</span>, <span class="term-purple">'projects'</span>, <span class="term-purple">'ml'</span>, <span class="term-purple">'education'</span>, <span class="term-purple">'certs'</span>, <span class="term-purple">'contact'</span>.
+              </div>
+            </div>
+
+            <div class="terminal-input-row">
+              <span class="terminal-prompt">visitor@uday-portfolio:~$</span>
+              <input type="text" id="term-input" class="terminal-input" placeholder="type 'help' and press Enter..." autocomplete="off" spellcheck="false">
+            </div>
+          </div>
+
+          <div class="terminal-hint">
+            <span>💡 Try running: <code class="term-cyan">skills</code>, <code class="term-cyan">projects</code>, <code class="term-cyan">quote</code></span>
+            <span>CLI Simulator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Technical Arsenal</span>
+        <h2 class="section-title">Skills & <span class="text-gradient">Competencies</span></h2>
+        <p class="section-subtitle">
+          A balanced blend of programming languages, machine learning frameworks, databases, and developer tools.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="skills-filter-container reveal-on-scroll">
+        <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+        <button class="skill-filter-btn" data-filter="aiml">AI & Machine Learning</button>
+        <button class="skill-filter-btn" data-filter="languages">Languages</button>
+        <button class="skill-filter-btn" data-filter="backend">Backend & Databases</button>
+        <button class="skill-filter-btn" data-filter="web">Web & Frontend</button>
+        <button class="skill-filter-btn" data-filter="tools">Tools & Soft Skills</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid">
+        <!-- Python -->
+        <div class="skill-card shimmer-effect" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🐍</div>
+            <span class="skill-category-badge">Language</span>
+          </div>
+          <h3 class="skill-name">Python</h3>
+          <p class="skill-desc">Primary language for AI/ML modeling, algorithmic problem solving, and automated data scripts.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Data Science</span>
+            <span class="skill-tag">Scripting</span>
+          </div>
+        </div>
+
+        <!-- C & C++ -->
+        <div class="skill-card shimmer-effect" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">⚙️</div>
+            <span class="skill-category-badge">Language</span>
+          </div>
+          <h3 class="skill-name">C & C++</h3>
+          <p class="skill-desc">Strong foundation in memory management, object-oriented programming, and low-level data structures.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Algorithms</span>
+            <span class="skill-tag">Optimization</span>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card shimmer-effect" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">⚡</div>
+            <span class="skill-category-badge">Language</span>
+          </div>
+          <h3 class="skill-name">JavaScript (ES6+)</h3>
+          <p class="skill-desc">Dynamic clientside scripting, asynchronous event loops, API consumption, and interactive UIs.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">DOM</span>
+            <span class="skill-tag">Async/Await</span>
+            <span class="skill-tag">APIs</span>
+          </div>
+        </div>
+
+        <!-- Machine Learning & Scikit-learn -->
+        <div class="skill-card shimmer-effect" data-category="aiml">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🤖</div>
+            <span class="skill-category-badge">AI / ML</span>
+          </div>
+          <h3 class="skill-name">Scikit-learn & ML Models</h3>
+          <p class="skill-desc">Supervised & unsupervised learning: Linear/Logistic Regression, Decision Trees, Clustering, and Evaluation.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Regression</span>
+            <span class="skill-tag">Classification</span>
+            <span class="skill-tag">Clustering</span>
+          </div>
+        </div>
+
+        <!-- NumPy & Pandas -->
+        <div class="skill-card shimmer-effect" data-category="aiml">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">📊</div>
+            <span class="skill-category-badge">AI / ML</span>
+          </div>
+          <h3 class="skill-name">NumPy & Pandas</h3>
+          <p class="skill-desc">High-performance vector operations, exploratory data analysis (EDA), data cleaning, and feature transformation.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">EDA</span>
+            <span class="skill-tag">Data Wrangling</span>
+            <span class="skill-tag">Matrix Math</span>
+          </div>
+        </div>
+
+        <!-- MySQL & PostgreSQL -->
+        <div class="skill-card shimmer-effect" data-category="backend">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🗄️</div>
+            <span class="skill-category-badge">Database</span>
+          </div>
+          <h3 class="skill-name">MySQL & PostgreSQL</h3>
+          <p class="skill-desc">Relational schema design, complex JOINs, indexing, ACID transactions, and query performance tuning.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">RDBMS</span>
+            <span class="skill-tag">Normalization</span>
+            <span class="skill-tag">Stored Procedures</span>
+          </div>
+        </div>
+
+        <!-- HTML5 & CSS3 -->
+        <div class="skill-card shimmer-effect" data-category="web">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🎨</div>
+            <span class="skill-category-badge">Frontend</span>
+          </div>
+          <h3 class="skill-name">HTML5 & CSS3</h3>
+          <p class="skill-desc">Semantic HTML, modern CSS Grid/Flexbox layouts, glassmorphism, keyframe animations, and mobile-first design.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Responsive UI</span>
+            <span class="skill-tag">Glassmorphism</span>
+            <span class="skill-tag">Animations</span>
+          </div>
+        </div>
+
+        <!-- Git & Version Control -->
+        <div class="skill-card shimmer-effect" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🐙</div>
+            <span class="skill-category-badge">Tools</span>
+          </div>
+          <h3 class="skill-name">Git & GitHub</h3>
+          <p class="skill-desc">Branching workflows, commit versioning, collaborative pull requests, merge conflict resolution, and CI/CD basics.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Version Control</span>
+            <span class="skill-tag">Collaboration</span>
+            <span class="skill-tag">CLI</span>
+          </div>
+        </div>
+
+        <!-- Systems Architecture & APIs -->
+        <div class="skill-card shimmer-effect" data-category="backend">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">🔌</div>
+            <span class="skill-category-badge">Architecture</span>
+          </div>
+          <h3 class="skill-name">APIs & System Architecture</h3>
+          <p class="skill-desc">Email API & SMS Gateway integration, RBAC authentication, session lifecycle, and IEEE 830-1998 specs.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Email API</span>
+            <span class="skill-tag">SMS Gateway</span>
+            <span class="skill-tag">IEEE 830-1998</span>
+          </div>
+        </div>
+
+        <!-- Engineering Mindset & Soft Skills -->
+        <div class="skill-card shimmer-effect" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">💡</div>
+            <span class="skill-category-badge">Soft Skills</span>
+          </div>
+          <h3 class="skill-name">Professional Competencies</h3>
+          <p class="skill-desc">Critical thinking, algorithmic problem solving, adaptability in fast-paced environments, and teamwork.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Critical Thinking</span>
+            <span class="skill-tag">Adaptability</span>
+            <span class="skill-tag">Team Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Production Engineering</span>
+        <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+        <p class="section-subtitle">
+          Real-world, scalable software architected according to international software standards.
+        </p>
+      </div>
+
+      <!-- Smart Classroom Management System Card -->
+      <div class="featured-project-card reveal-on-scroll">
+        <div class="project-info-side">
+          <span class="featured-badge">⚡ Flagship System Architecture</span>
+          <h3 class="project-title">Smart Classroom Management System</h3>
+          <p class="project-timeline">📅 Dec 2025 – Jan 2026 • Full-Stack & System Architecture</p>
+
+          <p class="project-summary">
+            A comprehensive, enterprise-grade classroom operations platform engineered according to <strong>IEEE 830-1998 standards</strong> to support 500 concurrent active users with sub-3-second latency and 99% uptime.
+          </p>
+
+          <div class="project-metrics-grid">
+            <div class="metric-box">
+              <span class="metric-val">500</span>
+              <span class="metric-lbl">Concurrent Users</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-val">&lt; 3s</span>
+              <span class="metric-lbl">Response Time</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-val">99%</span>
+              <span class="metric-lbl">System Uptime</span>
+            </div>
+          </div>
+
+          <ul class="project-features-list">
+            <li class="project-feature-item">
+              <span class="feature-check-icon">✓</span>
+              <span><strong>3-Role RBAC Security:</strong> Admin, Teacher, and Student roles with salted password hashing, automated session timeouts, and failed-login auditing.</span>
+            </li>
+            <li class="project-feature-item">
+              <span class="feature-check-icon">✓</span>
+              <span><strong>Automated Attendance Engine:</strong> Real-time percentage computation generating comprehensive administrator reports in &lt; 5 seconds.</span>
+            </li>
+            <li class="project-feature-item">
+              <span class="feature-check-icon">✓</span>
+              <span><strong>Assignment & Exam Pipelines:</strong> Strict deadline locking to prevent late submissions, coupled with a 3-step online examination system with auto-grading.</span>
+            </li>
+            <li class="project-feature-item">
+              <span class="feature-check-icon">✓</span>
+              <span><strong>Unified User Experience:</strong> 3 dedicated role dashboards + 3 core modules for Attendance, Assignments, and Real-time Analytics.</span>
+            </li>
+          </ul>
+
+          <div class="project-tech-stack">
+            <span class="tech-pill">MySQL</span>
+            <span class="tech-pill">PostgreSQL</span>
+            <span class="tech-pill">Email API</span>
+            <span class="tech-pill">SMS Gateway API</span>
+            <span class="tech-pill">IEEE 830-1998</span>
+            <span class="tech-pill">JavaScript ES6+</span>
+          </div>
+
+          <div class="project-actions">
+            <button id="open-project-modal" class="btn btn-primary">
+              <span>View Architecture Specs</span>
+              <span>🔍</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project Visual Architecture Diagram Mockup -->
+        <div class="project-visual-preview">
+          <div class="mockup-header">
+            <div class="mockup-dots">
+              <span class="ctrl-btn ctrl-close"></span>
+              <span class="ctrl-btn ctrl-min"></span>
+              <span class="ctrl-btn ctrl-max"></span>
+            </div>
+            <span class="mockup-tab-title">Architecture Pipeline: IEEE 830-1998</span>
+            <span>🔒 RBAC</span>
+          </div>
+
+          <div class="mockup-diagram">
+            <div class="diagram-node">
+              <div class="node-title">
+                <span>🖥️ Role-Based Client Layer</span>
+              </div>
+              <div class="node-roles">
+                <span class="role-tag">Admin</span>
+                <span class="role-tag">Teacher</span>
+                <span class="role-tag">Student</span>
+              </div>
+            </div>
+
+            <div class="diagram-connector">↓ Secure Auth &amp; Session Tokens ↓</div>
+
+            <div class="diagram-node">
+              <div class="node-title">
+                <span>⚙️ Core Application Pipelines</span>
+              </div>
+              <div class="node-roles">
+                <span class="role-tag">Attendance &lt;5s</span>
+                <span class="role-tag">Deadline Lock</span>
+                <span class="role-tag">Exam Auto-Grade</span>
+              </div>
+            </div>
+
+            <div class="diagram-connector">↓ Relational Queries &amp; Alerts ↓</div>
+
+            <div class="diagram-node">
+              <div class="node-title">
+                <span>🗄️ Storage &amp; Notification Gateways</span>
+              </div>
+              <div class="node-roles">
+                <span class="role-tag">PostgreSQL / MySQL</span>
+                <span class="role-tag">Email API</span>
+                <span class="role-tag">SMS Gateway</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive AI/ML Playground Section -->
+  <section id="ml-showcase" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Live Machine Learning Inference</span>
+        <h2 class="section-title">Interactive <span class="text-gradient">AI/ML Playground</span></h2>
+        <p class="section-subtitle">
+          Test an interactive simulated Machine Learning inference model in real-time. Adjust the parameters below to evaluate academic & engineering performance readiness.
+        </p>
+      </div>
+
+      <div class="ml-playground-container reveal-on-scroll">
+        <div class="ml-playground-grid">
+          <!-- Left: Input Features -->
+          <div class="ml-inputs-panel">
+            <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+              <span>🎛️</span> Input Feature Vector (X)
+            </h3>
+
+            <!-- Feature 1: Study Hours -->
+            <div class="slider-group">
+              <div class="slider-label-row">
+                <span>Daily Practice & Study:</span>
+                <span id="study-val" class="slider-val-badge">6 hrs/day</span>
+              </div>
+              <input type="range" id="ml-study-hours" min="1" max="10" step="0.5" value="6">
+            </div>
+
+            <!-- Feature 2: Attendance Rate -->
+            <div class="slider-group">
+              <div class="slider-label-row">
+                <span>Classroom Attendance & Engagement:</span>
+                <span id="attendance-val" class="slider-val-badge">90%</span>
+              </div>
+              <input type="range" id="ml-attendance" min="50" max="100" step="1" value="90">
+            </div>
+
+            <!-- Feature 3: Projects Built -->
+            <div class="slider-group">
+              <div class="slider-label-row">
+                <span>Practical & ML Projects Built:</span>
+                <span id="projects-val" class="slider-val-badge">4 built</span>
+              </div>
+              <input type="range" id="ml-projects" min="1" max="10" step="1" value="4">
+            </div>
+
+            <!-- Feature 4: Coding Solved -->
+            <div class="slider-group">
+              <div class="slider-label-row">
+                <span>Algorithmic Problems Solved:</span>
+                <span id="coding-val" class="slider-val-badge">120 solved</span>
+              </div>
+              <input type="range" id="ml-coding-score" min="10" max="300" step="5" value="120">
+            </div>
+          </div>
+
+          <!-- Right: Model Output & Feature Weights -->
+          <div class="ml-output-panel">
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <span>🎯</span> Model Inference Output (Y)
+              </h3>
+
+              <div class="prediction-result-box">
+                <div id="ml-pred-score" class="pred-score">8.89</div>
+                <div id="ml-pred-label" class="pred-label">🚀 Distinction & High-Performance Developer</div>
+                <div id="ml-pred-confidence" class="pred-confidence">Model Confidence: 94.8% | RMSE: 0.042</div>
+              </div>
+            </div>
+
+            <!-- Feature Importance Weights -->
+            <div>
+              <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em; margin-bottom: 0.75rem;">
+                Dynamic Feature Activation
+              </h4>
+
+              <div class="feature-weights-list">
+                <div class="weight-row">
+                  <span class="weight-name">Study Hours</span>
+                  <div class="weight-bar-bg">
+                    <div id="bar-study" class="weight-bar-fill" style="width: 55%;"></div>
+                  </div>
+                  <span class="weight-val">25%</span>
+                </div>
+
+                <div class="weight-row">
+                  <span class="weight-name">Attendance Rate</span>
+                  <div class="weight-bar-bg">
+                    <div id="bar-attendance" class="weight-bar-fill" style="width: 80%;"></div>
+                  </div>
+                  <span class="weight-val">20%</span>
+                </div>
+
+                <div class="weight-row">
+                  <span class="weight-name">Projects Built</span>
+                  <div class="weight-bar-bg">
+                    <div id="bar-projects" class="weight-bar-fill" style="width: 40%;"></div>
+                  </div>
+                  <span class="weight-val">30%</span>
+                </div>
+
+                <div class="weight-row">
+                  <span class="weight-name">Coding Solved</span>
+                  <div class="weight-bar-bg">
+                    <div id="bar-coding" class="weight-bar-fill" style="width: 38%;"></div>
+                  </div>
+                  <span class="weight-val">25%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training & Experience Timeline Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Professional Growth</span>
+        <h2 class="section-title">Industry <span class="text-gradient">Training</span></h2>
+        <p class="section-subtitle">
+          Intensive practical training in Machine Learning, Artificial Intelligence, and End-to-End Data Pipelines.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-card reveal-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content-box">
+            <div class="timeline-header">
+              <h3 class="timeline-role">AI/ML Trainee &amp; Machine Learning Developer</h3>
+              <span class="timeline-date">Jun 2026 – Jul 2026</span>
+            </div>
+            <p class="timeline-org">Lovely Professional University • Summer Training</p>
+            <ul class="timeline-bullets">
+              <li>Mastered core machine learning principles with <strong>Python, NumPy, and Pandas</strong>, covering data preprocessing, exploratory data analysis (EDA), and data wrangling.</li>
+              <li>Implemented and fine-tuned supervised and unsupervised learning algorithms, including <strong>regression, classification, and clustering</strong>.</li>
+              <li>Engineered an end-to-end machine learning project covering raw data collection, feature engineering, model training, cross-validation, and inference prediction.</li>
+              <li>Evaluated ML models using <strong>Scikit-learn</strong> with industry performance metrics (Accuracy, Precision, Recall, F1-Score, RMSE, ROC-AUC) to optimize model generalization.</li>
+              <li>Gained deep practical intuition for AI/ML workflows, complex dataset handling, hyperparameter tuning, and real-world problem formulations.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Academic Foundations</span>
+        <h2 class="section-title">Education <span class="text-gradient">Timeline</span></h2>
+        <p class="section-subtitle">
+          Consistent academic excellence across higher secondary schooling and computer science engineering.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- B.Tech -->
+        <div class="timeline-card reveal-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content-box">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Bachelor of Technology – CSE (AI &amp; ML)</h3>
+              <span class="timeline-date">Aug 2025 – Present</span>
+            </div>
+            <p class="timeline-org">Lovely Professional University • Phagwara, Punjab</p>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.5rem;">
+              <span style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-cyan); background: rgba(0, 242, 254, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(0, 242, 254, 0.3);">
+                CGPA: 8.89 / 10.0
+              </span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Specialization in Artificial Intelligence & Machine Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12th -->
+        <div class="timeline-card reveal-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content-box">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Higher Secondary Education (Class XII)</h3>
+              <span class="timeline-date">Apr 2023 – Mar 2025</span>
+            </div>
+            <p class="timeline-org">Army Public School • Chennai, Tamil Nadu</p>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.5rem;">
+              <span style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-purple); background: rgba(139, 92, 246, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(139, 92, 246, 0.3);">
+                Percentage: 81.2%
+              </span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Senior Secondary Curriculum</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10th -->
+        <div class="timeline-card reveal-on-scroll">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content-box">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Secondary Education (Class X)</h3>
+              <span class="timeline-date">Jun 2021 – Mar 2023</span>
+            </div>
+            <p class="timeline-org">Army Public School • Meerut, Uttar Pradesh</p>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.5rem;">
+              <span style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1); padding: 0.25rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid rgba(16, 185, 129, 0.3);">
+                Percentage: 87.0%
+              </span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Secondary Schooling Foundation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates & Achievements Section -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Verified Credentials</span>
+        <h2 class="section-title">Certificates & <span class="text-gradient">Milestones</span></h2>
+        <p class="section-subtitle">
+          Professional accreditations and algorithmic problem-solving achievements.
+        </p>
+      </div>
+
+      <!-- Certifications Cards Grid -->
+      <div class="certs-grid">
+        <!-- Infosys -->
+        <div class="cert-card shimmer-effect reveal-on-scroll">
+          <div>
+            <div class="cert-top">
+              <div class="cert-icon">🛡️</div>
+              <span class="cert-date">Mar 2026</span>
+            </div>
+            <h3 class="cert-title">Introduction to Cyber Security</h3>
+            <p class="cert-issuer">INFOSYS</p>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5;">
+              Security fundamentals, threats assessment, network defense architectures, cryptography, and secure system design.
+            </p>
+          </div>
+          <div style="margin-top: 1.25rem;">
+            <span class="skill-tag">Network Security</span>
+            <span class="skill-tag">Defense Principles</span>
+          </div>
+        </div>
+
+        <!-- Saylor -->
+        <div class="cert-card shimmer-effect reveal-on-scroll">
+          <div>
+            <div class="cert-top">
+              <div class="cert-icon">🐍</div>
+              <span class="cert-date">Feb 2026</span>
+            </div>
+            <h3 class="cert-title">Introduction to Python</h3>
+            <p class="cert-issuer">Saylor Academy</p>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5;">
+              Comprehensive coverage of Python programming paradigms, data structures, modular design, and standard libraries.
+            </p>
+          </div>
+          <div style="margin-top: 1.25rem;">
+            <span class="skill-tag">Python Syntax</span>
+            <span class="skill-tag">Data Structures</span>
+          </div>
+        </div>
+
+        <!-- Intel -->
+        <div class="cert-card shimmer-effect reveal-on-scroll">
+          <div>
+            <div class="cert-top">
+              <div class="cert-icon">🤖</div>
+              <span class="cert-date">Oct 2024</span>
+            </div>
+            <h3 class="cert-title">AI For All</h3>
+            <p class="cert-issuer">Intel</p>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5;">
+              Foundational principles of artificial intelligence, ethical considerations, machine perception, and AI-driven innovations.
+            </p>
+          </div>
+          <div style="margin-top: 1.25rem;">
+            <span class="skill-tag">AI Fundamentals</span>
+            <span class="skill-tag">Ethics in AI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements Banner -->
+      <div class="achievements-banner reveal-on-scroll">
+        <div class="achievement-item">
+          <div class="achievement-icon-wrap">🏅</div>
+          <div class="achievement-details">
+            <h4>LeetCode 100 Days Badge</h4>
+            <p>Maintained consistent daily algorithmic problem solving over 100 consecutive days on LeetCode.</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon-wrap">💻</div>
+          <div class="achievement-details">
+            <h4>100+ Problems Solved</h4>
+            <p>Successfully solved over 100 competitive programming challenges across modern coding platforms.</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon-wrap">🌟</div>
+          <div class="achievement-details">
+            <h4>8.89 Academic CGPA</h4>
+            <p>Maintained academic distinction in B.Tech Computer Science & Engineering (AI & ML) at LPU.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Connect Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="text-gradient">Connect</span></h2>
+        <p class="section-subtitle">
+          Interested in collaborating on AI/ML projects, software engineering roles, or technical discussions? Reach out directly!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info-cards reveal-on-scroll">
+          <!-- Email -->
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <div class="contact-meta">
+              <h5>Email Address</h5>
+              <a href="mailto:udayshankarpraneet@gmail.com">udayshankarpraneet@gmail.com</a>
+            </div>
+            <button class="copy-btn" data-copy="udayshankarpraneet@gmail.com">Copy</button>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-card">
+            <div class="contact-icon">📱</div>
+            <div class="contact-meta">
+              <h5>Direct Phone / Mobile</h5>
+              <a href="tel:+917384825279">+91 7384825279</a>
+            </div>
+            <button class="copy-btn" data-copy="+917384825279">Copy</button>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="contact-card">
+            <div class="contact-icon">🔗</div>
+            <div class="contact-meta">
+              <h5>LinkedIn Profile</h5>
+              <a href="https://www.linkedin.com/in/uday-shankar-praneet" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/uday-shankar-praneet
+              </a>
+            </div>
+          </div>
+
+          <!-- GitHub -->
+          <div class="contact-card">
+            <div class="contact-icon">🐙</div>
+            <div class="contact-meta">
+              <h5>GitHub Repositories</h5>
+              <a href="https://github.com/udayshankarpraneet-afk" target="_blank" rel="noopener noreferrer">
+                github.com/udayshankarpraneet-afk
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-box reveal-on-scroll">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="alex@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Your Message / Opportunity</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Hi Uday, I came across your portfolio and would love to discuss an AI/ML opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message Directly</span>
+              <span>🚀</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <span style="font-weight: 800; font-size: 1.1rem;">Uday Shankar Praneet</span>
+        <p class="footer-text">B.Tech CSE (AI & ML) • Software Engineer</p>
+      </div>
+
+      <p class="footer-text">
+        © 2026 Uday Shankar Praneet. Built with high-performance Vanilla Web Technologies.
+      </p>
+
+      <div style="display: flex; gap: 1rem;">
+        <a href="#hero" class="btn btn-outline" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+          Back to Top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Architecture Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button id="close-project-modal" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      
+      <span class="featured-badge" style="margin-bottom: 0.5rem;">Architecture Breakdown</span>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1rem;">Smart Classroom Management System</h2>
+      
+      <div style="margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.7;">
+        <p style="margin-bottom: 1rem;">
+          The system was designed and documented following strict <strong>IEEE 830-1998 standards</strong> for software requirements specification, prioritizing high reliability, low-latency transaction processing, and data consistency under concurrent load.
+        </p>
+
+        <h4 style="font-size: 1rem; color: var(--text-primary); margin-bottom: 0.5rem;">Key Architecture Highlights:</h4>
+        <ul style="padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+          <li><strong>Performance Benchmark:</strong> Engineered to serve 500 simultaneous users with &lt; 3-second latency and 99% uptime guarantee.</li>
+          <li><strong>Role-Based Access Control (RBAC):</strong> Discrete authentication gates for Administrator, Teacher, and Student roles with cryptographic password hashing, automated session invalidation, and brute-force tracking.</li>
+          <li><strong>Real-Time Attendance Engine:</strong> Calculates attendance statistics and delivers PDF/CSV executive admin reports in under 5 seconds.</li>
+          <li><strong>Assignment Lifecycle:</strong> Server-side timestamp verification with deadline locking to enforce academic policy.</li>
+          <li><strong>Examination Module:</strong> 3-step test authoring, candidate testing with auto-grading, and instant student result rendering.</li>
+          <li><strong>Integration Layer:</strong> RESTful endpoints integrated with transactional Email API and SMS Gateway API for instant parent/student alerts.</li>
+        </ul>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end;">
+        <a href="#contact" onclick="document.getElementById('project-modal').classList.remove('active'); document.body.style.overflow='auto';" class="btn btn-primary">
+          Discuss This Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification"></div>
+
+  <!-- JavaScript Scripts -->
+  <script src="assets/js/neural-bg.js"></script>
+  <script src="assets/js/terminal.js"></script>
+  <script src="assets/js/ml-widget.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

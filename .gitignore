@@ -1,0 +1,11 @@
+# Chrome debugging & profiles
+chrome_profile/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS generated
+Thumbs.db
+.DS_Store

@@ -1,0 +1,73 @@
+/* ==========================================================================
+   PRINT / PDF RESUME STYLES
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  .navbar,
+  #neural-canvas,
+  .glow-orb,
+  .hero-visual,
+  .terminal-window,
+  .ml-playground-container,
+  .skills-filter-container,
+  .hero-cta-group,
+  .contact-form-box,
+  .modal-overlay,
+  .theme-toggle-btn,
+  .mobile-toggle-btn,
+  .toast-notification,
+  .copy-btn,
+  .floating-chip {
+    display: none !important;
+  }
+
+  .section {
+    padding: 1.5rem 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .section-title {
+    font-size: 14pt !important;
+    color: #111827 !important;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 4px;
+    margin-bottom: 0.8rem;
+  }
+
+  .featured-project-card,
+  .skill-card,
+  .timeline-content-box,
+  .cert-card,
+  .contact-card,
+  .achievements-banner {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: none !important;
+    color: #111827 !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .text-gradient {
+    background: none !important;
+    -webkit-text-fill-color: #111827 !important;
+    color: #111827 !important;
+  }
+
+  .timeline-container::before {
+    background: #cbd5e1 !important;
+  }
+}
