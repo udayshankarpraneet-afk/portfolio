@@ -6,12 +6,17 @@ chrome_profile/
 __pycache__/
 *.pyc
 
-# Local scripts & presentations (not for website deployment)
-*.pptx
-*.pdf
+# Local scripts & comic presentations (kept locally, not for website deployment)
+Uday_Shankar_Praneet_Portfolio_Comic.pptx
+Uday_Shankar_Praneet_Portfolio_Comic.pdf
 comic_presentation_script.md
 generate_comic_presentation.py
+generate_calm_comic.py
 take_screenshots.py
+github_avatar.png
+
+# Allow website documentation and CV
+!assets/docs/*.pdf
 
 # OS generated
 Thumbs.db
