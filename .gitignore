@@ -6,6 +6,13 @@ chrome_profile/
 __pycache__/
 *.pyc
 
+# Local scripts & presentations (not for website deployment)
+*.pptx
+*.pdf
+comic_presentation_script.md
+generate_comic_presentation.py
+take_screenshots.py
+
 # OS generated
 Thumbs.db
 .DS_Store
