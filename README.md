@@ -11,7 +11,7 @@ A modern, high-performance, responsive portfolio website showcasing Uday Shankar
 - 💻 **Interactive Developer Terminal**: Embedded interactive CLI simulator (`help`, `skills`, `projects`, `ml`, `education`, `certs`, `contact`, `theme`, `quote`, `sudo`, `clear`).
 - 🤖 **Live In-Browser AI/ML Predictor**: Interactive regression/classification model simulator where visitors can adjust feature vectors (study hours, attendance, projects, coding score) to see live predictions and dynamic feature activation weights.
 - 🚀 **Featured Project Deep-Dive**: Comprehensive breakdown of the **Smart Classroom Management System** (IEEE 830-1998 standards, 500 concurrent users, sub-3s response, 99% uptime, 3-Role RBAC, automated attendance & exam pipelines).
-- 🏆 **Achievements & Badges Matrix**: Highlighting the **LeetCode 100 Days Badge**, **100+ Solved Problems**, and **8.89 CGPA** honors.
+- 🏆 **Achievements & Badges Matrix**: Highlighting the **LeetCode 100 Days Badge**, **100+ Solved Problems**, and **8.98 CGPA** honors.
 - 📜 **Verified Credentials**: Intel AI For All, Infosys Cyber Security, and Saylor Python certifications.
 - 🌓 **Dark & Light Mode**: Smooth theme toggling with `localStorage` persistence.
 - 🖨️ **Print & PDF CV Ready**: Dedicated print stylesheet formatted for instant, clean PDF resume export (`Ctrl + P` or click "PDF CV").

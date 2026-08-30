@@ -16,7 +16,7 @@
 <div class="terminal-line">  <span class="term-green">skills</span>       - Core tech stack & ML capabilities</div>
 <div class="terminal-line">  <span class="term-green">projects</span>     - Production architecture & systems</div>
 <div class="terminal-line">  <span class="term-green">ml</span>           - Machine Learning models & workflows</div>
-<div class="terminal-line">  <span class="term-green">education</span>    - Academic background & CGPA (8.89)</div>
+<div class="terminal-line">  <span class="term-green">education</span>    - Academic background & CGPA (8.98)</div>
 <div class="terminal-line">  <span class="term-green">certs</span>        - Professional certifications</div>
 <div class="terminal-line">  <span class="term-green">achievements</span> - Milestones & LeetCode badges</div>
 <div class="terminal-line">  <span class="term-green">contact</span>      - Email, phone, GitHub, LinkedIn</div>
@@ -28,7 +28,7 @@
     whoami: () => `
 <div class="terminal-line"><span class="term-cyan">Name:</span> Uday Shankar Praneet</div>
 <div class="terminal-line"><span class="term-cyan">Specialization:</span> Computer Science & Engineering (AI & ML)</div>
-<div class="terminal-line"><span class="term-cyan">Institution:</span> Lovely Professional University (CGPA: 8.89)</div>
+<div class="terminal-line"><span class="term-cyan">Institution:</span> Lovely Professional University (CGPA: 8.98)</div>
 <div class="terminal-line"><span class="term-cyan">Passion:</span> Building scalable, high-performance web systems and deploying real-world AI/ML models.</div>
 `,
 
@@ -60,7 +60,7 @@
     education: () => `
 <div class="terminal-line term-cyan">Education Journey:</div>
 <div class="terminal-line"><span class="term-green">B.Tech - Computer Science & Engineering (AI&ML)</span> (2025 - Present)</div>
-<div class="terminal-line">  Lovely Professional University, Phagwara, Punjab | <span class="term-yellow">CGPA: 8.89</span></div>
+<div class="terminal-line">  Lovely Professional University, Phagwara, Punjab | <span class="term-yellow">CGPA: 8.98</span></div>
 <div class="terminal-line"><span class="term-green">Higher Secondary Education (12th)</span> (2023 - 2025)</div>
 <div class="terminal-line">  Army Public School, Chennai, Tamil Nadu | <span class="term-yellow">Percentage: 81.2%</span></div>
 <div class="terminal-line"><span class="term-green">Secondary Education (10th)</span> (2021 - 2023)</div>
@@ -78,13 +78,13 @@
 <div class="terminal-line term-cyan">Achievements & Badges:</div>
 <div class="terminal-line"> 🏅 <span class="term-yellow">LeetCode 100 Days Badge</span> - Daily consistent problem solving.</div>
 <div class="terminal-line"> 💻 <span class="term-yellow">100+ Problems Solved</span> across competitive coding platforms.</div>
-<div class="terminal-line"> 🌟 <span class="term-yellow">8.89 Academic CGPA</span> in B.Tech CSE (AI & ML).</div>
+<div class="terminal-line"> 🌟 <span class="term-yellow">8.98 Academic CGPA</span> in B.Tech CSE (AI & ML).</div>
 `,
 
     contact: () => `
 <div class="terminal-line term-cyan">Direct Contact Coordinates:</div>
 <div class="terminal-line">  📧 Email: <a href="mailto:udayshankarpraneet@gmail.com" class="term-green">udayshankarpraneet@gmail.com</a></div>
-<div class="terminal-line">  📱 Phone: <a href="tel:+917384825279" class="term-green">+91 7384825279</a></div>
+<div class="terminal-line">  📱 Phone: <a href="tel:+9173848xxxxx" class="term-green">+91 73848xxxxx</a></div>
 <div class="terminal-line">  🔗 LinkedIn: <a href="https://www.linkedin.com/in/uday-shankar-praneet" target="_blank" class="term-cyan">linkedin.com/in/uday-shankar-praneet</a></div>
 <div class="terminal-line">  🐙 GitHub: <a href="https://github.com/udayshankarpraneet-afk" target="_blank" class="term-cyan">github.com/udayshankarpraneet-afk</a></div>
 `,
